@@ -436,6 +436,106 @@ const siteData = {
       { name: "Chiedza Mapondera", image: "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?w=100&h=100&fit=crop&crop=face", role: "School Administrator", text: "Wonderful experience. The team was courteous, professional, and efficient.", rating: 5, date: "2024-12-10", projectType: "Institutional" },
     ],
   },
+  careers: {
+    heroTitle: [
+      { text: "Build the " },
+      { text: "Future.", highlight: true },
+    ],
+    heroSubtitle:
+      "Leevox Tech is hiring engineers, designers, and project managers who want to build technology that matters. Real projects, real impact, real growth.",
+    heroImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&q=80",
+    cultureTitle: "Why Work With Us?",
+    cultureItems: [
+      {
+        iconName: "Rocket",
+        title: "Ship Real Products",
+        desc: "No maintenance-only roles. You will build platforms used by banks, telecoms, and government agencies. Your code runs in production from week one.",
+      },
+      {
+        iconName: "Users",
+        title: "Engineering Culture",
+        desc: "Code reviews, tech talks, hackathons. We invest in engineering excellence because it is our competitive advantage.",
+      },
+      {
+        iconName: "ShieldCheck",
+        title: "Modern Stack",
+        desc: "React, Node.js, Python, AWS, Kubernetes. We use the best tools for the job, not whatever was decided five years ago.",
+      },
+    ],
+    cultureImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    cultureImageAlt: "Leevox Tech engineering team workspace",
+    cultureTagline: "Code. Deploy. Scale.",
+    cultureTaglineDesc:
+      "We are builders. Every sprint delivers working software. Every engineer has ownership. Every project pushes us to be better.",
+    benefits: [
+      { iconName: "CurrencyDollar", title: "Competitive Pay", desc: "Top-of-market salaries for Zimbabwe plus performance bonuses tied to project delivery." },
+      { iconName: "GraduationCap", title: "Learning Budget", desc: "Annual budget for courses, certifications, conferences, and technical books." },
+      { iconName: "Heart", title: "Health & Wellness", desc: "Comprehensive medical aid and wellness programme for all team members." },
+      { iconName: "Rocket", title: "Career Progression", desc: "Clear IC and management tracks. Quarterly reviews with actionable growth plans." },
+      { iconName: "ShieldCheck", title: "Flexible Work", desc: "Hybrid model with remote days. We care about output, not office hours." },
+      { iconName: "Users", title: "Team Events", desc: "Monthly hackathons, tech talks, and team socials. Genuine engineering community." },
+    ],
+    positions: [
+      {
+        id: 1,
+        title: "Senior Full-Stack Engineer",
+        department: "Engineering",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Design and build web applications, APIs, and cloud infrastructure for enterprise clients. Lead technical decisions on projects and mentor junior developers.",
+        requirements: [
+          "4+ years full-stack development experience",
+          "Proficiency in React/Next.js and Node.js or Python",
+          "AWS or Azure cloud experience",
+          "Database design (PostgreSQL, MongoDB)",
+          "Strong communication and client-facing skills",
+        ],
+      },
+      {
+        id: 2,
+        title: "DevOps Engineer",
+        department: "Infrastructure",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Build and maintain CI/CD pipelines, cloud infrastructure, and monitoring systems. Ensure 99.9% uptime for client applications across AWS and Azure.",
+        requirements: [
+          "3+ years DevOps or SRE experience",
+          "Terraform, Docker, and Kubernetes proficiency",
+          "AWS or Azure certification preferred",
+          "Monitoring tools: Datadog, Grafana, or CloudWatch",
+          "Scripting in Bash, Python, or Go",
+        ],
+      },
+      {
+        id: 3,
+        title: "Junior Software Developer",
+        department: "Engineering",
+        type: "Full-Time",
+        location: "Harare",
+        description:
+          "Join our engineering team and learn by building. You will work on real client projects from day one with mentorship from senior engineers.",
+        requirements: [
+          "Degree in Computer Science or related field",
+          "Proficiency in at least one programming language",
+          "Understanding of web development fundamentals",
+          "Eagerness to learn and grow rapidly",
+          "Portfolio or GitHub profile demonstrating personal projects",
+        ],
+      },
+    ],
+    generalApplicationTitle: "Love Building Things?",
+    generalApplicationSubtitle:
+      "We are always looking for talented engineers and tech professionals. Send us your CV and GitHub profile.",
+    generalApplicationCta: "Send Your CV",
+  },
+
+  footer: {
+    description:
+      "Full-spectrum IT solutions provider in Harare. Custom software, cloud infrastructure, cybersecurity, and managed IT services.",
+    copyright: "Leevox Tech (Pvt) Ltd",
+  },
 };
 
 export default siteData;
