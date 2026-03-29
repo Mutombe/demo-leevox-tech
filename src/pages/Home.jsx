@@ -182,7 +182,7 @@ function HeroSection() {
                 className={`font-heading font-bold leading-[0.88] tracking-tight ${
                   word === 'LIMITS.' ? 'text-gold-500' : word === '/' ? 'text-white/5 font-light' : 'text-white'
                 }`}
-                style={{ fontSize: word === '/' ? 'clamp(1rem, 4vw, 3rem)' : 'clamp(2.5rem, 10vw, 8rem)' }}
+                style={{ fontSize: word === '/' ? 'clamp(1rem, 4vw, 3rem)' : 'clamp(2.5rem, 7vw, 4.5rem)' }}
               >
                 {word}
               </h1>
@@ -690,7 +690,7 @@ function CTASection() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
+          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}>
             BUILD<br /><span className="text-gold-500">FASTER.</span>
           </h2>
           <p className="text-white/40 text-sm sm:text-base lg:text-lg max-w-lg mx-auto mb-10 leading-relaxed">{homeCta.subtitle}</p>
